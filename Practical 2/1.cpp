@@ -14,7 +14,7 @@ float rgbDivide(int rgb);
 void starColorChanging();
 void rotateAngleFunc();
 
-int quesNo = 4;
+int quesNo = 1;
 double tx = 0, ty = 0, tSpeed = 0.1;
 std::string color;
 float red = rgbDivide(255), green = rgbDivide(255), blue = rgbDivide(0);
@@ -172,6 +172,7 @@ void starColorChanging() {
 	}
 }
 void q2() {
+	glLoadIdentity();
 	float PI = 3.1429;
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(red, green, blue); // yellow

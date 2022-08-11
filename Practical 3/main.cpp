@@ -5,6 +5,24 @@
 // #pragma comment (lib, "OpenGL32.lib")
 
 #define WINDOW_TITLE "Practical 3 Exercise"
+int quesNo = 1;
+double xTranslateLeft = 0.0, xTranslateRight = 0.0;
+double yTranslateLeft = 0.0, yTranslateRight = 0.0;
+
+void reset() {
+	xTranslateLeft = 0.0;
+	xTranslateRight = 0.0;
+	yTranslateLeft = 0.0;
+	yTranslateRight = 0.0;
+}
+void translateX() {
+	xTranslateLeft -= 0.1;
+	xTranslateRight += 0.1;
+}
+void translateY() {
+	yTranslateLeft -= 0.1;
+	yTranslateRight += 0.1;
+}
 
 // window procedure acts as something like event listener (listen for message or input), full of switch cases
 LRESULT WINAPI WindowProcedure(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
@@ -19,6 +37,12 @@ LRESULT WINAPI WindowProcedure(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam
 		// wParam = window Parameter
 		// VK = virtual key
 		if (wParam == VK_ESCAPE) PostQuitMessage(0);
+		else if (wParam == VK_LEFT || wParam == VK_RIGHT)
+			translateX();
+		else if (wParam == VK_UP || wParam == VK_DOWN)
+			translateY();
+		else if (wParam == 0x20)
+			reset();
 		break;
 
 	default:
@@ -64,6 +88,31 @@ bool initPixelFormat(HDC hdc)
 
 // Q1
 void q1() {
+	glClear(GL_COLOR_BUFFER_BIT);
+	glClearColor(0, 0, 0, 0);
+	glColor3f(1, 0, 0);
+
+	// left quad
+	glPushMatrix();
+	glTranslatef(xTranslateLeft, yTranslateLeft, 1);
+	glBegin(GL_QUADS);
+		glVertex2f(-0.2, 0);
+		glVertex2f(0, 0);
+		glVertex2f(0, 0.2);
+		glVertex2f(-0.2, 0.2);
+	glEnd();
+	glPopMatrix();
+
+	// right quad
+	glPushMatrix();
+	glTranslatef(xTranslateRight, yTranslateRight, 1);
+	glBegin(GL_QUADS);
+		glVertex2f(0.2, 0);
+		glVertex2f(0, 0);
+		glVertex2f(0, 0.2);
+		glVertex2f(0.2, 0.2);
+	glEnd();
+	glPopMatrix();
 }
 
 
@@ -73,47 +122,14 @@ void display()
 	//	OpenGL drawing
 	//--------------------------------
 
-	glClear(GL_COLOR_BUFFER_BIT);
-	
-	// Block 4: obj 1 & obj 2 & obj 3
-	glPushMatrix();
-	glScalef(0.5, 0.5, 1.0);
+	switch (quesNo)
+	{
+	case 1:
+		q1();
+	default:
+		break;
+	}
 
-	// Block 1: obj 1 red tri
-	glPushMatrix();
-	glTranslatef(0.5, 0, 0); // tx(0.5) right
-	glBegin(GL_TRIANGLES);
-	glColor3f(1, 0, 0);
-		glVertex2f(-0.5, 0);
-		glVertex2f(0, 0.5);
-		glVertex2f(0.5, 0);
-	glEnd();
-	glPopMatrix();
-
-	// Block 2: obj 2 green quad
-	glPushMatrix();
-	glTranslatef(-0.5, 0, 0); // tx(-0.5) left
-	glBegin(GL_QUADS);
-	glColor3f(0, 1, 0);
-		glVertex2f(-0.5, 0);
-		glVertex2f(-0.5, 0.5);
-		glVertex2f(0.5, 0.5);
-		glVertex2f(0.5, 0);
-	glEnd();
-	glPopMatrix();
-
-	// Block 3: obj 3 blue tri
-	glPushMatrix();
-	glTranslatef(0, 0.5, 0); // ty(0.5) up
-	glBegin(GL_TRIANGLES);
-	glColor3f(0, 0, 1);
-		glVertex2f(-0.5, 0);
-		glVertex2f(0, 0.5);
-		glVertex2f(0.5, 0);
-	glEnd();
-	glPopMatrix();
-
-	glPopMatrix();
 	//--------------------------------
 	//	End of OpenGL drawing
 	//--------------------------------
