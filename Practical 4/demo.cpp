@@ -3,7 +3,7 @@
 #include <gl/GL.h>
 #include <string>
 #include <math.h>
-#define WINDOW_TITLE "Practical 2 Exercise"
+#define WINDOW_TITLE "Practical 4 Exercise"
 
 // window procedure acts as something like event listener (listen for message or input), full of switch cases
 LRESULT WINAPI WindowProcedure(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
@@ -107,23 +107,41 @@ void drawCube(float sz) {
 	glEnd();
 
 }
+void drawPyramid(float sz) {
+	glBegin(GL_LINE_LOOP);
+		// Face 1 : Bottom
+		glColor3f(1.0, 0.0, 0.0);
+		glVertex3f(0.0f, 0.0f, sz);
+		glVertex3f(sz, 0.0f, sz);
+		glVertex3f(sz, 0.0f, 0.0f);
+		glVertex3f(0.0f, 0.0f, 0.0f);
+		glVertex3f(sz/2, sz, sz/2);
+		glVertex3f(0.0f, 0.0f, sz);
+		glVertex3f(sz/2, sz, sz/2);
+		glVertex3f(sz, 0.0f, sz);
+		glVertex3f(sz/2, sz, sz/2);
+		glVertex3f(sz, 0.0f, 0.0f);
+		glVertex3f(sz / 2, sz, sz / 2);
+		glVertex3f(0.0f, 0.0f, 0.0f);
+	glEnd();
+}
 
 void display()
 {
 	//--------------------------------
 	//	OpenGL drawing
 	//--------------------------------
-
+	glLineWidth(3);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glEnable(GL_DEPTH_TEST);
-	glRotatef(1.0, 1.0, 0.0, 0.0);
+	//glRotatef(1.0, 1.0, 0.0, 0.0);
 	//glRotatef(0.5, 0.0, 1.0, 0.0);
 	//glRotatef(0.5, 0.0, 0.0, 1.0);
-	//glRotatef(0.5, 1.0, 1.0, 1.0);
+	glRotatef(0.5, 1.0, 1.0, 1.0);
 	//glRotatef(0.5, 1.0, 1.0, 0.0);
 	//glRotatef(0.5, 1.0, 0.0, 1.0);
 
-	drawCube(0.5);
+	drawPyramid(0.5);
 }
 //--------------------------------------------------------------------
 

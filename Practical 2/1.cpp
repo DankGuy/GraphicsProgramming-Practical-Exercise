@@ -108,6 +108,57 @@ bool initPixelFormat(HDC hdc)
 float rgbDivide(int rgb) {
 	return ((float)rgb) / 255;
 }
+void ok() {
+	// blade pattern
+	glColor3f(rgbDivide(152), rgbDivide(116), rgbDivide(86));
+	glLineWidth(3);
+	glBegin(GL_LINES);
+	glVertex2f(-0.58, 0.384);
+	glVertex2f(-0.58, 0.312);
+	glEnd();
+
+	glBegin(GL_LINES);
+	glVertex2f(-0.54, 0.384);
+	glVertex2f(-0.54, 0.312);
+	glEnd();
+
+	glBegin(GL_LINES);
+	glVertex2f(-0.5, 0.384);
+	glVertex2f(-0.5, 0.312);
+	glEnd();
+
+	glBegin(GL_LINES);
+	glVertex2f(-0.46, 0.384);
+	glVertex2f(-0.46, 0.312);
+	glEnd();
+
+	glBegin(GL_LINES);
+	glVertex2f(-0.42, 0.384);
+	glVertex2f(-0.42, 0.312);
+	glEnd();
+
+	glBegin(GL_LINES);
+	glVertex2f(-0.38, 0.384);
+	glVertex2f(-0.38, 0.312);
+	glEnd();
+
+	glBegin(GL_LINES);
+	glVertex2f(-0.34, 0.384);
+	glVertex2f(-0.34, 0.312);
+	glEnd();
+
+	glBegin(GL_LINES);
+	glVertex2f(-0.3, 0.384);
+	glVertex2f(-0.3, 0.312);
+	glEnd();
+
+	glBegin(GL_LINES);
+	glVertex2f(-0.26, 0.384);
+	glVertex2f(-0.26, 0.312);
+	glEnd();
+
+}
+
 
 // Q1
 void q1() {
@@ -310,7 +361,8 @@ void display()
 	switch (quesNo)
 	{
 	case 1:
-		q1();
+		/*q1();*/
+		ok();
 		break;
 	case 2:
 		q2();
