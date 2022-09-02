@@ -1,0 +1,5 @@
+﻿  demo2.cpp
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 6\demo2.cpp(12,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 6\demo2.cpp(13,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 6\demo2.cpp(195,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Practical 6.vcxproj -> E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 6\Debug\Practical 6.exe
