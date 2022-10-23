@@ -1,0 +1,13 @@
+﻿  demo.cpp
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(15,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(19,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(47,18): warning C4305: '+=': truncation from 'double' to 'float'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(51,18): warning C4305: '-=': truncation from 'double' to 'float'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(133,29): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(134,29): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(135,15): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(137,29): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(138,29): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(139,15): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\demo.cpp(239,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Practical 8.vcxproj -> E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 8\Debug\Practical 8.exe

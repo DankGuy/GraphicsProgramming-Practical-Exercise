@@ -158,7 +158,14 @@ void ok() {
 	glEnd();
 
 }
-
+void test() {
+	glBegin(GL_QUAD_STRIP);
+		glVertex2f(0, 1);
+		glVertex2f(0.5, 0.5);
+		glVertex2f(0.5, -0.5);
+		glVertex2f(-0.5, -0.5);
+	glEnd();
+}
 
 // Q1
 void q1() {
@@ -362,7 +369,7 @@ void display()
 	{
 	case 1:
 		/*q1();*/
-		ok();
+		test();
 		break;
 	case 2:
 		q2();

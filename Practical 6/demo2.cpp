@@ -13,14 +13,14 @@ float ptx = 0, pty = 0, ptSpeed = 0.1;		// translate for projection
 float pry = 0.2, prSpeed = 1.0;				// rotation in y for projection
 
 //lightning
-float amb[3] = { 1.0,0.0,0.0 }; //ambient light
-float pos[3] = { 0.0,6.0,0.0 }; //light position
-float dif[3] = { 0.0,1.0,0.0 }; //gree colour diffuse light
-float posD[3] = { 6.0,0.0,0.0 }; //dif light pos(6,0,0)
+float amb[3] = { 1.0, 1.0, 1.0 };	// ambient light
+float pos[3] = { 0.0, 6.0, 0.0 };	// light position
+float dif[3] = { 1.0, 1.0, 1.0 };	// gree colour diffuse light
+float posD[3] = { 6.0, 0.0, 0.0 };	// dif light pos(6,0,0)
 
 //material
-float ambM[3] = { 1.0,0.0,0.0 }; //red colour ambient material
-float difM[3] = { 1.0,0.0,0.0 };
+float ambM[3] = { 0.0, 0.0, 1.0 };	// ambient material
+float difM[3] = { 0.0, 0.0, 1.0 };
 
 // window procedure acts as something like event listener (listen for message or input), full of switch cases
 LRESULT WINAPI WindowProcedure(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
@@ -183,10 +183,10 @@ void display()
 	glTranslatef(tx, 0.0, tz); // translate along the z-axis
 
 	//red ambient material
-	//glMaterialfv(GL_FRONT, GL_AMBIENT, ambM);
+	glMaterialfv(GL_FRONT, GL_AMBIENT, ambM);
 
 	//red diffuse material
-	glMaterialfv(GL_FRONT, GL_DIFFUSE, difM);
+	//glMaterialfv(GL_FRONT, GL_DIFFUSE, difM);
 
 	drawSphere(5.0);
 

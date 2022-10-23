@@ -18,32 +18,32 @@ E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\
 E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(152,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(156,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(157,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(167,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(167,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(198,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(199,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(200,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(227,19): warning C4305: 'initializing': truncation from 'double' to 'float'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(238,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(239,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(254,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(258,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(259,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(263,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(264,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(268,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(269,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(273,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(274,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(278,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(279,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(290,21): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(293,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(301,12): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(317,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(317,11): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(323,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(324,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(325,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(326,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(174,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(174,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(205,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(206,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(207,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(234,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(245,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(246,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(261,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(265,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(266,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(270,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(271,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(275,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(276,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(280,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(281,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(285,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(286,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(297,21): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(300,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(308,12): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(324,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(324,11): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(330,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(331,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(332,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\1.cpp(333,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
   Practical 2.vcxproj -> E:\Studies\TARUC\Degree\Year 2\Year 2 Sem 1\Graphics Programming\Practical\Code\Practical 2\Debug\Practical 2.exe
